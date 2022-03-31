@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+  body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo{
+    cursor: pointer;
+    padding-left: 25px;
+    width: 185px;
+    height: 45px;
+  }
+
+  a{
+    text-decoration-line : none;
+  }
+
+  select{
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 10pt;
+    float: none;
+    padding-left: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 10pt;
+    float: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background: rgba(78, 128, 136, 0.92);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(78, 128, 136, 0.6);
+  }
+
+  div.a{
+    text-align: right;
+  }
+
+  div.b{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 30%;
+    min-height: 100vh;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+  }
+
+  input{
+    width: 200px;
+    height: 38px;
+    border: none;
+    font-size: 10pt;
+    float: none;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .seat_input{
+    width: 50px;
+    height: 38px;
+    border: none;
+    font-size: 10pt;
+    float: none;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  #icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 12px;
+    margin-top: 140px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+
+
+
+  #container
+  {
+    margin: 0 auto;
+    padding: 20px 0 0;
+    width: 650px;
+  }
+  #airplane{
+    background: url(/images/airplane.gif) no-repeat;
+    cursor: default;
+
+    clear: both;
+    font-size: 0;
+    margin: 0 0 15px;
+    overflow: hidden;
+    position: relative;
+    width: 650px;
+    height: 148px;
+
+  }
+  #airplane a
+  {
+    background-image: url(/images/seat.gif);
+    cursor: default;
+
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+    width: 10px;
+    height: 10px;
+  }
+  #airplane a:hover,
+  #airplane a:focus
+  {
+    background-position: -10px 0;
+  }
+  #airplane a.selected,
+  #airplane a.selected:hover
+  {
+    background-position: -20px 0;
+  }
+  #airplane li{
+    visibility: visible;
+
+    list-style: none;
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+  }
+
+  #airplane .A
+  {
+    top: 108px;
+  }
+
+  #airplane .B
+  {
+    top: 96px;
+  }
+
+  #airplane .C
+  {
+    top: 84px;
+  }
+
+  #airplane .D
+  {
+    top: 54px;
+  }
+
+  #airplane .E
+  {
+    top: 42px;
+  }
+
+  #airplane .F
+  {
+    top: 30px;
+  }
+
+  /* =Airplane - Seat Numbers
+  ----------------------------------------------------------------------*/
+
+  #airplane .seat_1
+  {
+    left: 123px;
+  }
+
+  #airplane .seat_2
+  {
+    left: 139px;
+  }
+
+  #airplane .seat_3
+  {
+    left: 155px;
+  }
+
+  #airplane .seat_4
+  {
+    left: 171px;
+  }
+
+  #airplane .seat_5
+  {
+    left: 187px;
+  }
+
+  #airplane .seat_6
+  {
+    left: 203px;
+  }
+
+  #airplane .seat_7
+  {
+    left: 219px;
+  }
+
+  #airplane .seat_8
+  {
+    left: 235px;
+  }
+
+  #airplane .seat_9
+  {
+    left: 251px;
+  }
+
+  #airplane .seat_10
+  {
+    left: 267px;
+  }
+
+  #airplane .seat_11
+  {
+    left: 283px;
+  }
+
+  #airplane .seat_12
+  {
+    left: 299px;
+  }
+
+  #airplane .seat_13
+  {
+    left: 330px;
+  }
+
+  #airplane .seat_14
+  {
+    left: 346px;
+  }
+
+  #airplane .seat_15
+  {
+    left: 362px;
+  }
+
+  #airplane .seat_16
+  {
+    left: 378px;
+  }
+
+  #airplane .seat_17
+  {
+    left: 394px;
+  }
+
+  #airplane .seat_18
+  {
+    left: 410px;
+  }
+
+  #airplane .seat_19
+  {
+    left: 426px;
+  }
+
+  #airplane .seat_20
+  {
+    left: 442px;
+  }
+
+  #airplane .seat_21
+  {
+    left: 458px;
+  }
+
+  #airplane .seat_22
+  {
+    left: 474px;
+  }
+
+  #airplane .seat_23
+  {
+    left: 490px;
+  }
+
+  #airplane .seat_24
+  {
+    left: 506px;
+  }
+
+  #airplane .seat_25
+  {
+    left: 522px;
+  }
+
+/*seat페이지의 사용자 이메일, 선택한 좌석, 사용자 좌석*/
+  .c {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items:center;
+  }
+
+/*선택한 좌석 배치(selected seat)*/
+  .d {
+    padding-right: 150px;
+  }
+
+/*사용자 좌석 배치(your seat)*/
+  .e {
+    padding-right: 120px;
+  }
+
+  .f{
+    padding-right: 20px;
+  }
+
+  .g{
+    padding-right: 50px;
+  }
+
+  input:checked{
+    float: left;/*float은 그림 같은 것을 '띄울 때 사용'현재는 왼쪽에 띄우겠다는 의미*/
+    box-shadow: 0 0 0 3px #6677b5;
+  }

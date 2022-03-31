@@ -1,0 +1,9 @@
+node_modules/
+
+sessions/
+
+db.json
+
+google.json
+
+senderInfo.json
