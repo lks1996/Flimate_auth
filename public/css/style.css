@@ -13,6 +13,13 @@
     height: 45px;
   }
 
+  .google_login{
+    cursor: pointer;
+    padding-left: 25px;
+    width: 35px;
+    height: 35px;
+  }
+
   a{
     text-decoration-line : none;
   }
